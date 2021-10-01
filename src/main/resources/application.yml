@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ATM-GEOLOCATION-SERVICE
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:Tomate.admin.1234@cluster0.vdjb1.mongodb.net/geomicroservice?retryWrites=true&w=majority
+
+server:
+  port: 8086
