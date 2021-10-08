@@ -1,9 +1,10 @@
 spring:
   application:
-    name: ATM-GEOLOCATION-SERVICE
+    name: atm-geolocation
+  config:
+    name: atm-geolocation
   data:
     mongodb:
       uri: mongodb+srv://admin:Tomate.admin.1234@cluster0.vdjb1.mongodb.net/geomicroservice?retryWrites=true&w=majority
-
 server:
-  port: 8086
+  port: 8100

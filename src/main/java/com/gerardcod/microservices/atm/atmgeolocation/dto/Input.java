@@ -1,7 +1,7 @@
 package com.gerardcod.microservices.atm.atmgeolocation.dto;
 
+import javax.validation.constraints.NotNull;
 import lombok.*;
-import org.jetbrains.annotations.NotNull;
 
 @Getter
 @Setter
